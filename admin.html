@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> ADMIN </title>
+    <link rel="stylesheet" href="admin.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Admin</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label> artist name</label>
+        </div>
+        <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label> song name</label>
+          </div> 
+          <div class="txt_field">
+            <input type="text" required>
+            <span></span>
+            <label>albums</label>
+          </div>
+        <div class="txt_field">
+          <input list="genre" required>
+          <datalist id="genre">
+            <option value="RnB"><br>
+            <option value="Hip Pop">
+            <option value="Afro">
+            <option value="Gakondo">
+            <option value="Reggae ton"> 
+            <option value="dancehall">          
+          </datalist>
+          <span></span>
+          <label>genre</label>
+        </div>
+        <div class="txt_field">
+          <input list="tags" required>
+        <datalist id="tags">
+          <option value="popular"><br>
+          <option value="upcoming artist">
+          <option value="casual">
+        </datalist>
+
+          <span></span>
+          <label> tags</label>
+        </div>
+        <div>
+          <input type="submit" value="Create ">
+        </div>
+      
+      </form>
+    </div>
+
+  </body>
+</html>
